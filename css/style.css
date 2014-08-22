@@ -1,0 +1,38 @@
+body {
+	font-family: sans-serif, "Times New Roman", Times, serif;
+	background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    background-color: white;
+    margin-bottom: 0px;
+}
+.list {
+
+    display: inline-block;
+    margin-left: 60px;
+}
+
+a {
+	position: relative;
+	top: -29px;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 30px; 
+	color: #25383C;
+}
+
+a:hover {
+    background-color: #474747;
+    color: white;
+}
+
+#main {
+	width: 100%;
+	height: 550px;
+}
+div.categories {
+	
+}
+

@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    
+    <!--this is for fluidic slideshow-->
+    <link rel="shortcut icon" href="../favicon.ico"> 
+    <!--<link rel="stylesheet" type="text/css" href="css/demo1.css" />-->
+    <link rel="stylesheet" type="text/css" href="css/style3.css" />
+    <script type="text/javascript" src="js/modernizr.custom.04022.js"></script>
+    <!--end-->
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" href="css/style2.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    
+    <ul id="nav_container">
+        <img id="logo" src="img/Chrysler_logo.png" width="250" height="60">
+        <div class="list">
+            <li><a href="index.html">Home</a></li>
+        </div> 
+        <div class="list">    
+            <li><a href="abouthtml">About</a></li>
+        </div>    
+        <div class="list">
+            <li><a href="blog.html">Blog</a></li>
+        </div>    
+        <div class="list">
+            <li><a href="gallery.html">Gallery</a></li>
+        </div>    
+        <div class="list">
+            <li><a href="contact.html">Contact us</a></li>
+        </div>
+    </ul>
+    <!-- div for slideshow -->
+    <div class="container">
+                           
+            <div class="sp-slideshow">
+            
+                <input id="button-1" type="radio" name="radio-set" class="sp-selector-1" checked="checked" />
+                <label for="button-1" class="button-label-1"></label>
+                
+                <input id="button-2" type="radio" name="radio-set" class="sp-selector-2" />
+                <label for="button-2" class="button-label-2"></label>
+                
+                <input id="button-3" type="radio" name="radio-set" class="sp-selector-3" />
+                <label for="button-3" class="button-label-3"></label>
+                
+                <input id="button-4" type="radio" name="radio-set" class="sp-selector-4" />
+                <label for="button-4" class="button-label-4"></label>
+                
+                <input id="button-5" type="radio" name="radio-set" class="sp-selector-5" />
+                <label for="button-5" class="button-label-5"></label>
+                
+                <label for="button-1" class="sp-arrow sp-a1"></label>
+                <label for="button-2" class="sp-arrow sp-a2"></label>
+                <label for="button-3" class="sp-arrow sp-a3"></label>
+                <label for="button-4" class="sp-arrow sp-a4"></label>
+                <label for="button-5" class="sp-arrow sp-a5"></label>
+                
+                <div class="sp-content">
+                    <div class="sp-parallax-bg"></div>
+                    <ul class="sp-slider clearfix">
+                        <li><img src="img/srt20.jpg" alt="image01" /></li>
+                        <li><img src="img/srt21.jpg" alt="image02" /></li>
+                        <li><img src="img/srt24.jpg" alt="image03" /></li>
+                        <li><img src="img/srt26.jpg" alt="image04" /></li>
+                        <li><img src="img/srt25.jpg" alt="image05" /></li>
+                    </ul>
+                </div><!-- sp-content -->
+                
+            </div><!-- sp-slideshow -->
+        </div>
+    <!-- table for specs -->
+    <table class="table1">
+            <thead>
+                <tr>
+                    <th><h2>Basic specs</h2></th>
+                    <th scope="col" abbr="charger">Charger SRT</th>
+                    <th scope="col" abbr="viper">Viper SRT</th>
+                    <th scope="col" abbr="300">300</th>
+                    <th scope="col" abbr="challenger">Challenger</th>
+                    <th scope="col" abbr="cherokee">Grand Cherokee</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                        <th scope="row"></th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <th scope="row">Project Code</th>
+                        <td>
+                            LD (12-16)
+                        </td>
+                        <td>
+                            SR(92-2002) <br> 
+                            ZB (03-10) <br>
+                            ZD(04-08) <br>
+                        </td>
+                        <td>
+                            LX (12-16)
+                        </td>
+                        <td>
+                            LC(08-14) <br>
+                            LA(2015-Up) <br>
+                        </td>
+                        <td>
+                            WK (11-16)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Market Name</th>
+                        <td>Charger SRT</td>
+                        <td>Viper SRT </td>
+                        <td>300 SRT</td>
+                        <td>Challanger SRT</td>
+                        <td>Grand Cherokee SRT</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Manufacturing Locations</th>
+                        <td>
+                             Brampton Assembly plant in Brampton,<br> Ontario, Canada
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            Brampton Assembly plant in Brampton,<br> Ontario, Canada
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Also sold as / Also known as</th>
+                        <td>Dodge Charger</td>
+                        <td></td>
+                        <td>Lancia Thema</td>
+                        <td>Dodge Challanger</td>
+                        <td>Lancia Thema</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">OEM</th>
+                        <td>Dodge</td>
+                        <td>Dodge</td>
+                        <td>Chrysler</td>
+                        <td>Dodge</td>
+                        <td>Jeep</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Model year</th>
+                        <td>2014</td>
+                        <td>2014</td>
+                        <td>2014</td>
+                        <td>2014</td>
+                        <td>2014</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Price Range</th>
+                        <td>$42,010 - $46,385</td>
+                        <td>$99,885 - $122,385</td>
+                        <td>$44,900 - $48,900</td>
+                        <td>$39,485 - $44,685</td>
+                        <td>$29,395 - $64,380</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Major competitor vechicles</th>
+                        <td>
+                            Ford mustang, <br>Chevrolet Camaro, <br>Hyundai Genesis
+                        </td>
+                        <td>
+                            Chevrolet Corvette, <br> Porsche 911, <br> Nissan GT-R.
+                        </td>
+                        <td>
+                            Chevrolet Impala, <br> Ford Taurus, <br> Hyundai Azera
+                        </td>
+                        <td>
+                            Ford mustang, <br> Chevrolet Camaro, <br> Hyundai Genesis
+                        </td>
+                        <td>
+                            Chevrolet Equinox, <br>Honda CR-V, <br>Ford Escape
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Regions (exported to/available at)
+</th>
+                        <td>Nafta, <br>GCC</td>
+                        <td>Nafta, <br>GCC</td>
+                        <td>Nafta, <br>UK, <br>South Korea, <brAustralia</td>
+                        <td>Nafta, <br>GCC</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                <tr>
+                        <th scope="row">Techinical specifications</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <th scope="row">Body Style</th>
+                        <td>Coupe</td>
+                        <td>Coupe</td>
+                        <td>Sedan</td>
+                        <td>Coupe</td>
+                        <td>Sedan</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Market Segment</th>
+                        <td>Sports</td>
+                        <td>Sports</td>
+                        <td>Luxury</td>
+                        <td>Sports</td>
+                        <td>Luxury</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Engine</th>
+                        <td>6.4-liter, No.of cylinders, V8</td>
+                        <td>8.4-liter, No.of cylinders, V10</td>
+                        <td>470-hp, 6.4-liter V-8</td>
+                        <td>6.4-liter, No.of cylinders, V8</td>
+                        <td>470-hp, 6.4-liter V-8</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fuel Economy</th>
+                        <td>14 mpg city / 23 mpg Highway</td>
+                        <td>12 mpg city / 19 mpg Highway</td>
+                        <td>14 - 19 city / 23 - 31 Highway</td>
+                        <td>14 mpg city and 23 mpg Highway</td>
+                        <td>13 city / 19 Highway</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fuel Tank Size</th>
+                        <td>19.5 Gallons</td>
+                        <td>19.5 Gallons</td>
+                        <td>19.5 Gallons</td>
+                        <td>19.5 Gallons</td>
+                        <td>24.6 Gallons</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Power(SAE)</th>
+                        <td>470-hp @ 6,000 rpm</td>
+                        <td>640-hp @ 6,200 rpm</td>
+                        <td>470-hp @ 6,000 rpm</td>
+                        <td>470-hp @ 6,000 rpm</td>
+                        <td>470-hp @ 6,000 rpm</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Torque</th>
+                        <td>470 lbs.-ft. @ 4,300 rpm</td>
+                        <td>600 lb.-ft. @ 5,000 rpm</td>
+                        <td>470 lbs.-ft. @ 4,300 rpm</td>
+                        <td>470 lbs.-ft. @ 4,300 rpm</td>
+                        <td>465 lbs.-ft. @ 4,300 rpm</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Transmission</th>
+                        <td>4 speed, 5 speed etc</td>
+                        <td>6-spd man transmission w/OD</td>
+                        <td>5-speed automatic w/OD and auto-manual</td>
+                        <td>5 speed.</td>
+                        <td>8-speed automatic w/OD and auto-manual</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Wheels</th>
+                        <td>20-inch alloy wheels</td>
+                        <td>19-inch alloy wheels</td>
+                        <td>20-inch aluminum wheels</td>
+                        <td>20-inch alloy wheels</td>
+                        <td>20-inch aluminum wheels</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Tyre Size</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                <tr>
+                        <th scope="row">Convenience features</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <th scope="row">Features</th>
+                        <td>
+                            Air conditioning <br>
+                            Automatic temperature control <br> 
+                            Speed control <br>
+                            Power windows <br>
+                            1-touch down <br>
+                            Remote keyless entry <br> 
+                            Illuminated entry <br>
+                            Tilt steering wheel <br>
+                            Telescoping steering wheel <br> 
+                            Driver vanity mirror <br>
+                            Passenger vanity mirror <br>
+                            Front beverage holders <br>
+                            Rear beverage holders <br>
+                            Overhead console <br>
+                            Driver door bin <br>
+                            Passenger door bin <br>
+                        </td>
+                        <td>Air conditioning <br>
+                            Automatic temperature control <br> 
+                            Speed control <br>
+                            Power windows <br>
+                            1-touch down <br>
+                            1-touch up <br>
+                            Remote keyless entry <br> 
+                            Illuminated entry <br>
+                            Tilt steering wheel <br>
+                            Adjustable pedals <br>
+                            Auto-dimming rearview mirror <br>
+                            Passenger vanity mirror <br>
+                            Garage door transmitter <br>
+                            Emergency communication system <br> 
+                            Voice recorder <br>
+                            Driver door bin <br>
+                            Passenger door bin <br>
+                        </td>
+                        <td>
+                            Air conditioning <br>
+                            Automatic temperature control <br> 
+                            Front dual zone A/C <br>
+                            Speed control <br>
+                            Power windows <br>
+                            1-touch down <br>
+                            1-touch up <br>
+                            Remote keyless entry <br> 
+                            Illuminated entry <br>
+                            Tilt steering wheel <br>
+                            Telescoping steering wheel <br>
+                            Auto-dimming rearview mirror <br>
+                            Driver vanity mirror <br>
+                            Passenger vanity mirror <br>
+                            Front beverage holders <br>
+                            Rear beverage holders <br>
+                            Overhead console <br>
+                            Driver door bin <br>
+                            Passenger door bin <br>
+                            Rear door bins <br>
+
+
+                        </td>
+                        <td>
+                            Air conditioning <br>
+                            Automatic temperature control <br>
+                            Speed control <br>
+                            Power windows <br>
+                            1-touch down <br>
+                            Remote keyless entry <br> 
+                            Illuminated entry <br>
+                            Tilt steering wheel <br>
+                            Telescoping steering wheel <br>
+                            Driver vanity mirror <br>
+                            Passenger vanity mirror <br>
+                            Front beverage holders <br>
+                            Rear beverage holders <br>
+                            Overhead console <br>
+                            Driver door bin <br>
+                            Passenger door bin <br>
+
+                        </td>
+                        <td>
+                            Air conditioning <br>
+                            Automatic temperature control <br>
+                            Front dual zone A/C <br>
+                            Speed control <br>
+                            Power windows <br>
+                            1-touch down <br>
+                            1-touch up <br>
+                            Remote keyless entry <br>
+                            Illuminated entry <br>
+                            Tilt steering wheel <br>
+                            Telescoping steering wheel <br>
+                            Driver vanity mirror <br>
+                            Passenger vanity mirror <br>
+                            Front beverage holders <br>
+                            Rear beverage holders <br>
+                            Overhead console <br>
+                            Driver door bin <br>
+                            Passenger door bin <br>
+                            Rear door bins. <br>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Off-road capability</th>
+                        <td>
+                            Data N/A
+                        </td>
+                        <td>
+                            Data N/A
+                        </td>
+                        <td>
+                            Data N/A
+                        </td>
+                        <td>
+                            Data N/A
+                        </td>
+                        <td>
+                            Approach angle 26 deg <br>
+                            Departure angle 27 deg <br>
+                            Ground clearance (min) 218mm (8.6") <br>
+                            Ground clearance (max) 259mm (10.2") <br>
+                            Ramp breakover angle 19 deg .<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Entertainment features</th>
+                        <td>
+                            AM/FM radio <br>
+                            CD player <br>
+                            MP3 decoder <br>
+                            Steering wheel mounted audio controls <br>
+                            Speakers 6 <br>
+                        </td>
+                        <td>
+                            AM/FM radio SiriusXM <br>
+                            Steering wheel mounted audio controls <br>
+                            Speakers 7 <br>
+                            Wireless phone connectivity uconnect w/Bluetooth <br>
+                            1st row LCD monitors 2 <br>
+                        </td>
+                        <td>
+                            AM/FM radio SiriusXM <br>
+                            CD player <br>
+                            MP3 decoder <br>
+                            DVD-Audio <br>
+                            Radio data system <br>
+                            Steering wheel mounted audio controls <br>
+                            Speakers 6 <br>
+                            Wireless phone connectivity Uconnect w/Bluetooth <br>
+                            1st row LCD monitors 1 <br>
+                            Primary LCD size 8.4" <br>
+                        </td>
+                        <td>
+                            AM/FM radio <br>
+                            CD player <br>
+                            MP3 decoder <br>
+                            Steering wheel mounted audio controls <br>
+                            Speakers 6 <br>
+                        </td>
+                        <td>
+                            AM/FM radio <br>
+                            MP3 decoder <br>
+                            Radio data system <br>
+                            Steering wheel mounted audio controls <br>
+                            Speakers 6 <br>
+                            Wireless phone connectivity Uconnect w/Bluetooth <br>
+                            1st row LCD monitors 2 <br>
+                            Primary LCD size 5.0" <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Seats and trim</th>
+                        <td>
+                            Max seating capacity 5 <br>
+                            Front seats bucket <br>
+                            Power driver seat <br>
+                            Front center armrest <br>
+                            Rear seats bench <br>
+                            Split folding rear seat <br>
+                            Rear seat center armrest <br>
+                            Leather shift knob <br>
+                        </td>
+                        <td>
+                            Max seating capacity 2 <br>
+                            Front seats bucket <br>
+                            Front center armrest <br>
+                            Leather shift knob <br>
+                            Sport steering wheel <br>
+                        </td>
+                        <td>
+                            Max seating capacity 5 <br>
+                            Front seats bucket <br>
+                            Power driver seat <br>
+                            Front center armrest <br>
+                            Heated front seats <br>
+                            Rear seats bench <br>
+                            Split folding rear seat <br>
+                            Rear seat center armrest <br>
+                            Leather upholstery <br>
+                            Leather shift knob <br>
+                        </td>
+                        <td>
+                            Max seating capacity 5 <br>
+                            Front seats bucket <br>
+                            Power driver seat <br>
+                            Front center armrest <br>
+                            Rear seats bench <br>
+                            Split folding rear seat <br>
+                            Rear seat center armrest <br>
+                            Leather shift knob <br>
+                        </td>
+                        <td>
+                            Max seating capacity 5 <br>
+                            Front seats bucket <br>
+                            Front center armrest w/storage <br>
+                            Rear seats split-bench <br>
+                            Split folding rear seat <br>
+                            Rear seat center armrest <br>
+                            Leather shift knob <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Warranty</th>
+                        <td>
+                            Basic warranty 36 months/36,000miles <br>
+                            Powertrain warranty 60 months/100,000miles <br>
+                            Corrosion perforation warranty 60 months/100,000miles <br>
+                            Roadside assistance coverage 60 months/100,000miles <br>
+                        </td>
+                        <td>
+                            Basic warranty 36 months/36,000miles <br>
+                            Powertrain warranty 60 months/100,000miles <br>
+                            Corrosion perforation warranty 60 months/100,000miles <br>
+                            Roadside assistance coverage 60 months/100,000miles <br>
+                        </td>
+                        <td>
+                            Basic warranty 36 months/36,000miles <br>
+                            Powertrain warranty 60 months/100,000miles <br>
+                            Corrosion perforation warranty 60 months/100,000miles <br>
+                            Roadside assistance coverage 60 months/100,000miles <br>
+                        </td>
+                        <td>
+                            Basic warranty 36 months/36,000miles <br>
+                            Powertrain warranty 60 months/100,000miles <br>
+                            Corrosion perforation warranty 60 months/100,000miles <br>
+                            Roadside assistance coverage 60 months/100,000miles <br>
+                        </td>
+                        <td>
+                            Basic warranty 36 months/36,000miles <br>
+                            Powertrain warranty 60 months/100,000miles <br>
+                            Corrosion perforation warranty 60 months/100,000miles <br>
+                            Roadside assistance coverage 60 months/100,000miles <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Body exterior</th>
+                        <td>
+                            Rear cargo trunk <br>
+                            Power door mirrors <br>
+                            Tailpipe finisher chrome <br>
+                            Door mirrors body-color <br>
+                            Bumpers body-color <br>
+                        </td>
+                        <td>
+                            Rear cargo trunk <br>
+                            Power door mirrors <br>
+                            Door mirrors body-color <br>
+                            Bumpers body-color <br>
+                        </td>
+                        <td>
+                            Rear cargo trunk <br>
+                            Power door mirrors <br>
+                            Heated door mirrors <br>
+                            Tailpipe finisher chrome <br>
+                            Door mirrors body-color <br>
+                            Bumpers body-color <br>
+                        </td>
+                        <td>
+                            Rear cargo trunk <br>
+                            Power door mirrors <br>
+                            Tailpipe finisher chrome <br>
+                            Door mirrors body-color <br>
+                            Bumpers body-color <br>
+                        </td>
+                        <td>Data N/A</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Safety and security</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Suspension/Handling</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Lighting, Visibility and Instrumentation</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>                    
+                </tbody><tfoot>
+                <tr>
+                        <th scope="row">Jd power Rating</th><!--this si the one getting printed-->
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <th scope="row">Overall quality</th>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Overall Mechanical quality</th>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Powertrain quality</th>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Body and interior quality</th>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Features & Accessories Quality - Mechanical</th>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Overall Quality Design</th>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Powertrain Quality - Design</th>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Body & Interior Quality - Design</th>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Features & Accessories Quality - Design</th>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                        <td><span class="check"></span></td>
+                    </tr>                    
+                </tbody>
+
+
+
+            </table>
+
+</body>
+</html>
